@@ -9,17 +9,27 @@ const Header = () => {
     return (
         <header>
             <div className="container header__container">
-                <h5>Hello I'm</h5>
-                <h1>Ibrahim GUOUAL BELHAMIDI</h1>
-                <h5 className="text-light">Softwer ingenire</h5>
+                <h5>Hi, my name is</h5>
+                <h1 className="name">Ibrahim GUOUAL BELHAMIDI.</h1>{" "}
+                <h1 className="discription">I build things for the web.</h1>
+                <h5 className="text-light">
+                    I’m a software engineer specializing in building (and
+                    occasionally designing) exceptional digital experiences.
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement.
+                </h5>
                 <Btns />
                 <Socials />
-                <a href="#contact" className="scroll__down">
-                    Scroll Down
+                <a
+                    href="mailto:ibrahim.guoual.b@gmail.com"
+                    target="_blank"
+                    className="contact__details"
+                >
+                    ibrahim.guoual.b@gmail.com
                 </a>
-                <div className="me">
+                {/* <div className="me">
                     <img src={Me} alt="" />
-                </div>
+                </div> */}
             </div>
         </header>
     );

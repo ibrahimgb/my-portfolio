@@ -5,11 +5,13 @@ const Btns = () => {
     return (
         <div className="btns">
             <a href={CV} download className="btn">
-                tcheck my cv
+                check out my resume
             </a>
+            {/*
             <a href="#contact" className="btn btn-primary">
                 Let's talk
             </a>
+            */}
         </div>
     );
 };
