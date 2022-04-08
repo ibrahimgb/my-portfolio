@@ -28,16 +28,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container,
-    .testimoniales__container {
+    .container.testimoniales__container {
         width: 60%;
     }
 }
 /*------ RESPONSIVE FOR SMALL DEVICES -----*/
 
 @media screen and (max-width: 600px) {
-    .container,
-    .testimoniales__container {
+    .container.testimoniales__container {
         width: var(--continer-width-sm);
     }
 
