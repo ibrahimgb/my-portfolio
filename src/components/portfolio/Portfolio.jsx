@@ -21,23 +21,15 @@ const data = [
         id: 3,
         image: IMG1,
         title: "Weather App",
-        github: "https://github.com/ibrahimgb/Weather-App-",
         demo: "demo",
-    },
-    {
-        id: 4,
-        image: IMG1,
-        title: "quizz app",
-        github: "https://github.com/ibrahimgb/Quizzical-App",
-        demo: "https://github.com/ibrahimgb/Quizzical-App",
     },
 ];
 
 const Portfolio = () => {
     return (
         <section id="portfolio">
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h5>Noteworthy Projects</h5>
+            <h2>Some Things I’ve Built</h2>
             <div className="container portfolio__container">
                 {data.map((item, index) => {
                     return (
@@ -47,13 +39,15 @@ const Portfolio = () => {
                             </div>
                             <h3>{item.title}</h3>
                             <div className="portfolio__item-btns">
-                                <a
-                                    href={item.github}
-                                    className="btn"
-                                    target="_blank"
-                                >
-                                    Github
-                                </a>
+                                {item.github && (
+                                    <a
+                                        href={item.github}
+                                        className="btn"
+                                        target="_blank"
+                                    >
+                                        Github
+                                    </a>
+                                )}
                                 <a
                                     href={item.demo}
                                     className="btn btn-primary"

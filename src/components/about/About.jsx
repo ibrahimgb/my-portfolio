@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-import ME from "../../assets/mepic.jpg";
+import ME from "../../assets/ibrahim.jpeg";
 import { BsAwardFill } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -9,7 +9,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
     return (
         <section id="about">
-            <h5>Get To Know</h5>
+            <h5></h5>
             <h2>About Me</h2>
             <div className="container about__container">
                 <div className="about__me">
@@ -19,6 +19,7 @@ const About = () => {
                 </div>
 
                 <div className="about__content">
+                    {/*
                     <div className="about__cards">
                         <div className="about__card">
                             <BsAwardFill className="about__icon" />
@@ -38,15 +39,32 @@ const About = () => {
                             <small>80+ Complited Projects</small>
                         </div>
                     </div>
+                    */}
+
                     <p>
                         {" "}
-                        lorem30 Free Portfolio Vector Icon in SVG format. ✓
-                        Download Free Portfolio Vector and icons for commercial
-                        use. Portfolio SVG vector illustration graphic art ...
+                        Hello! My name is Ibrahim and I enjoy making stuff. I'm
+                        from a small town near Oran, Algeria.
+                        <br /> My interest in web development started back in
+                        2020 when I decided to make a smart fridge where I had
+                        made a web app that can monitor and control the fridge,
+                        and from it to a react native app. taught me a lot about
+                        React!
+                        <br /> As for now, my main focus is web development,
+                        because the web is here to stay! while I tend to use my
+                        free time to work on my side projects or indie games.
+                        Besides being something that I like to do, my personal
+                        projects help me to fill my never-ending curiosity since
+                        I can't help myself not trying out that new framework
+                        that everyone is talking about. As a result, I keep my
+                        set of skills and knowledge as broad and updated as
+                        possible.
                     </p>
+                    {/*
                     <a href="#contact" className="btn btn-primary">
                         let's talk
                     </a>
+                    */}
                 </div>
             </div>
         </section>

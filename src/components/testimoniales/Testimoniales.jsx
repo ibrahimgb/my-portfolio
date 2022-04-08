@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimoniales.css";
-import avatar from "../../assets/avatar.jpeg";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,28 +11,24 @@ import "swiper/css/pagination";
 const testimonialsList = [
     {
         id: 1,
-        image: avatar,
-        name: "lakdar lokil",
-        review: "would be really great if you could start creative web development series on youtube, like deconstruct awwwards websites. would be really great if you could start creative web development",
+        image: "https://media-exp1.licdn.com/dms/image/C4E03AQFaHv2KylkDzA/profile-displayphoto-shrink_400_400/0/1595977214183?e=1654732800&v=beta&t=-AT6xHu0V5rjzty8cKiWRoR5YEtERYD1xYkwbQyDLUA",
+        name: "Bouabdellah Kechar",
+        review: "Appreciations: He is among the best students (the first 20%) of his promotion and he distinguished by certain appreciable qualities such as diligence, an excellent human relationship, mastery of his field of competence (Networks and distributed systems) and autonomy. I'm holding should also be underlined his perfect mastery of the computer tool, particularly at the level of development and simulation environments dedicated to computer and system networks.",
+        linkedin: "https://www.linkedin.com/in/bkechar/",
     },
     {
         id: 2,
-        image: avatar,
-        name: "lakdar lokil",
-        review: "would be really great if you could start creative web development series on youtube, like deconstruct awwwards websites. would be really great if you could start creative web development",
-    },
-    {
-        id: 3,
-        image: avatar,
-        name: "lakdar lokil",
-        review: "would be really great if you could start creative web development series on youtube, like deconstruct awwwards websites. would be really great if you could start creative web development",
+        image: "https://media-exp1.licdn.com/dms/image/C4E03AQGTzPQPCZR8wg/profile-displayphoto-shrink_400_400/0/1517741101572?e=1654732800&v=beta&t=eQQJd0i-ycfDT7rihDw3Pupgf4Vx2se6dTdoS6eDdIY",
+        name: "Yahia Lebbah",
+        review: "Appreciations: He is among the best students (the first 20%) of his promotion and he distinguished by certain appreciable qualities such as diligence, an excellent human relationship, mastery of his field of competence (Networks and distributed systems) and autonomy. I'm holding should also be underlined his perfect mastery of the computer tool, particularly at the level of development and simulation environments dedicated to computer and system networks.",
+        linkedin: "https://www.linkedin.com/in/yahia-lebbah-3bb9898/",
     },
 ];
 
 const Testimoniales = () => {
     return (
         <section id="testimoniales">
-            <h5>review from Clients</h5>
+            <h5>from my professors </h5>
             <h2>testimonials</h2>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

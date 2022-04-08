@@ -19,14 +19,12 @@ const Footer = () => {
                 <li>
                     <a href="#experience">experience</a>
                 </li>
-                <li>
-                    <a href="#services">services</a>
-                </li>
+
                 <li>
                     <a href="#portfolio">portfolio</a>
                 </li>
                 <li>
-                    <a href="#testimonials">testimonials</a>
+                    <a href="#testimoniales">testimonials</a>
                 </li>
                 <li>
                     <a href="#contact">contact</a>
@@ -34,10 +32,16 @@ const Footer = () => {
             </ul>
 
             <div className="socials">
-                <a href="facebook.com" target="_blank">
+                <a
+                    href="https://www.facebook.com/profile.php?id=100005323544934"
+                    target="_blank"
+                >
                     <ImFacebook2 />
                 </a>
-                <a href="instagram.com" target="_blank">
+                <a
+                    href="https://www.instagram.com/ibrahim_goual/"
+                    target="_blank"
+                >
                     <AiFillInstagram />
                 </a>
                 <a href="twitter.com" target="_blank">
