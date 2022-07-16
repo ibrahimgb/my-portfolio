@@ -1,27 +1,45 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/img1.png";
+import TCF from "../../assets/tcf.jpg";
+import PFE from "../../assets/pfe.jpg";
 
 const data = [
     {
+        id: 0,
+        image: TCF,
+        title: "Tcf Quiz Exam",
+        github: "https://github.com/ibrahimgb/tcf-quiz-exam",
+        discription:
+            "Attempt the online Tcf Mock test. Reading Writing language structure. to find out the Tcf score (tcf stands for France language knowledge test) built with react, redux toolkit and Firebase",
+        demo: null,
+    },
+    {
         id: 1,
-        image: IMG1,
-        title: "todo-List",
-        github: "https://github.com/ibrahimgb/todo-List",
-        demo: "https://github.com",
+        image: PFE,
+        title: "Mes-papiers",
+        github: "https://github.com/ibrahimgb/pfe",
+        discription:
+            "Mes-papiers is a Mobile application for managing administrative files with localization, this is my final year project for my bachelor’s degree Apr 2020 – Jul 2020 Built using android studio, it uses SQLite to save data on the phone and googles map API for localization.",
+        demo: null,
     },
     {
         id: 2,
-        image: IMG1,
-        title: "finansial visualisation",
-        github: "https://github.com",
-        demo: "https://github.com",
+        image: null,
+        title: "Robot Navigation Using Deep Reinforcement Learning",
+        github: " https://github.com/ibrahimgb/robot-navigation-using-deep-reinforcement-learning",
+        discription:
+            "Deep Reinforcement Learning for mobile robot navigation, a robot learns to navigate to a random goal point from random moves to adopting a strategy, in a simulated maze environment while avoiding dynamic obstacles. tools i used: Pycharm, matplotlib, numpy, keras, Anaconda3.",
+        demo: null,
     },
     {
         id: 3,
-        image: IMG1,
-        title: "Weather App",
-        demo: "demo",
+        image: null,
+        title: "PARALLEL-DENSE-MATRIX-MATRIX-MULTIPLICATION",
+        discription:
+            "CPU testbench, test performance of the CPU in sequential and in parallel using multithreading. Tools I Used: Linux, GNU Compiler, Pthread, VS Code. ",
+        github: "https://github.com/ibrahimgb/PARALLEL-DENSE-MATRIX-MATRIX-MULTIPLICATION",
+        demo: null,
     },
 ];
 
@@ -34,28 +52,40 @@ const Portfolio = () => {
                 {data.map((item, index) => {
                     return (
                         <article key={index} className="portfolio__item">
-                            <div className="portfolio__item-img">
-                                <img src={item.image} alt={item.title}></img>
+                            <div className="portfolio__item-btnss portfolio__item__discription ">
+                                <h3 className="portfolio__item__title">
+                                    {item.title}
+                                </h3>
+                                <p>{item.discription}</p>
+                                <div className="btnse">
+                                    {item.github && (
+                                        <a
+                                            href={item.github}
+                                            className="btn right"
+                                            target="_blank"
+                                        >
+                                            Github
+                                        </a>
+                                    )}
+                                    {item.demo && (
+                                        <a
+                                            href={item.demo}
+                                            className="btn btn-primary"
+                                            target="_blank"
+                                        >
+                                            Live Demo
+                                        </a>
+                                    )}
+                                </div>
                             </div>
-                            <h3>{item.title}</h3>
-                            <div className="portfolio__item-btns">
-                                {item.github && (
-                                    <a
-                                        href={item.github}
-                                        className="btn"
-                                        target="_blank"
-                                    >
-                                        Github
-                                    </a>
-                                )}
-                                <a
-                                    href={item.demo}
-                                    className="btn btn-primary"
-                                    target="_blank"
-                                >
-                                    Live Demo
-                                </a>
-                            </div>
+                            {item.image && (
+                                <div className="portfolio__item-img">
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                    ></img>
+                                </div>
+                            )}
                         </article>
                     );
                 })}

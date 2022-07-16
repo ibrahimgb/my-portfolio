@@ -1,10 +1,10 @@
 .container.testimoniales__container {
-    width: 40%;
+    width: 50%;
     padding-bottom: 3.2rem;
 }
 
 .client__avatar {
-    width: 4rem;
+    width: 6rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
@@ -15,16 +15,21 @@
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 0.4rem;
     user-select: none;
 }
 
 .client__review {
     color: var(--color-light);
     font-weight: 300;
+    font-size: 1.1rem;
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 0.8rem auto 0;
+}
+
+.gap {
+    margin: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {

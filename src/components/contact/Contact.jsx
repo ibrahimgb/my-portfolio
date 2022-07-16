@@ -76,7 +76,7 @@ const Contact = () => {
                     <input
                         type="text"
                         name="subject"
-                        placeholder="your email"
+                        placeholder="subject"
                         required
                     />
                     <textarea
