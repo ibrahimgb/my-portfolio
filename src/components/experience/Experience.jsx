@@ -32,6 +32,13 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon " />
                             <div>
+                                <h4>Angular</h4>
+                                <small className="text-light">Intermidiet</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon " />
+                            <div>
                                 <h4>JavaScript</h4>
                                 <small className="text-light">
                                     Intermidiet
@@ -63,13 +70,7 @@ const Experience = () => {
                                 </small>
                             </div>
                         </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon " />
-                            <div>
-                                <h4>Angular</h4>
-                                <small className="text-light">beginner</small>
-                            </div>
-                        </article>
+                        
                     </div>
                 </div>
                 <div className="other-skills">
@@ -88,7 +89,7 @@ const Experience = () => {
                             <BsPatchCheckFill className="experience__details-icon " />
                             <div>
                                 <h4>Spring Bot</h4>
-                                <small className="text-light">beginner</small>
+                                <small className="text-light">Beginner</small>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -105,7 +106,7 @@ const Experience = () => {
                             <div>
                                 <h4>sql</h4>
                                 <small className="text-light">
-                                    Experienced
+                                Intermidiet
                                 </small>
                             </div>
                         </article>
@@ -132,7 +133,7 @@ const Experience = () => {
                             <div>
                                 <h4>AWS IoT</h4>
                                 <small className="text-light">
-                                    Intermidiet
+                                Beginner
                                 </small>
                             </div>
                         </article>
