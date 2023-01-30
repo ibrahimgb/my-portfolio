@@ -51,11 +51,75 @@
     }
 }
 
+/*
+.tags{
+    border: 2px solid red;
+}
+*/
+
+.chips-tag {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 1px 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.chips-tag:hover {
+    background-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.bullet_points{
+    margin: 1rem;
+}
+
+
+.position{
+    margin: 0.5rem;
+    margin-top: 0;
+}
+.date{
+    margin-right: 1.5rem;
+}
+
+.sub_title{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover .sub_title{
+    color: var(--color-primary-variant);
+}
+
+#experience__item__title{
+    margin-bottom: 0.5rem;
+}
+
+li{
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+
 /*------ RESPONSIVE FOR SMALL DEVICES -----*/
 
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+    }
+    .date{
+        margin-right: 0rem;
     }
 
     .experience__container > div {
@@ -63,3 +127,4 @@
         padding: 2rem 1rem;
     }
 }
+
