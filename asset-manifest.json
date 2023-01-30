@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.55734d22.css",
-    "main.js": "/my-portfolio/static/js/main.5978a337.js",
+    "main.css": "/my-portfolio/static/css/main.50f5334c.css",
+    "main.js": "/my-portfolio/static/js/main.c06e73bf.js",
     "static/media/img1.png": "/my-portfolio/static/media/img1.687560724b21d2bda137.png",
     "static/media/KB.pdf": "/my-portfolio/static/media/KB.c25bfd486db0beb7e1d1.pdf",
     "static/media/YL.pdf": "/my-portfolio/static/media/YL.c0c1efd08a16da6a12cb.pdf",
     "static/media/tcf.jpg": "/my-portfolio/static/media/tcf.4abb54e3eab44c2cc052.jpg",
+    "static/media/tower-farms-home.webp": "/my-portfolio/static/media/tower-farms-home.3e5a249f103756d2e83c.webp",
+    "static/media/LMS.png": "/my-portfolio/static/media/LMS.1e344d55e03177224315.png",
     "static/media/ibrahim.jpeg": "/my-portfolio/static/media/ibrahim.d1f91214089ba0d8b0a0.jpeg",
-    "static/media/CV.pdf": "/my-portfolio/static/media/CV.664722a754408dfb4008.pdf",
+    "static/media/CV.pdf": "/my-portfolio/static/media/CV.4f2016562b62ebe7a947.pdf",
     "static/media/Recommendation Letter-Goual-Belhamidi.pdf": "/my-portfolio/static/media/Recommendation Letter-Goual-Belhamidi.f28568cbd180f276d60a.pdf",
     "static/media/BouabdellahKechar.jpeg": "/my-portfolio/static/media/BouabdellahKechar.626325db4360920f958c.jpeg",
     "static/media/YahiaLebbah.jpeg": "/my-portfolio/static/media/YahiaLebbah.a5f333941283ca3219f6.jpeg",
     "static/media/LakhdarLoukil.jpeg": "/my-portfolio/static/media/LakhdarLoukil.a36f31a88617e20b4644.jpeg",
     "static/media/pfe.jpg": "/my-portfolio/static/media/pfe.e92d5580fbb93aaef755.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.55734d22.css.map": "/my-portfolio/static/css/main.55734d22.css.map",
-    "main.5978a337.js.map": "/my-portfolio/static/js/main.5978a337.js.map"
+    "main.50f5334c.css.map": "/my-portfolio/static/css/main.50f5334c.css.map",
+    "main.c06e73bf.js.map": "/my-portfolio/static/js/main.c06e73bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.55734d22.css",
-    "static/js/main.5978a337.js"
+    "static/css/main.50f5334c.css",
+    "static/js/main.c06e73bf.js"
   ]
 }
