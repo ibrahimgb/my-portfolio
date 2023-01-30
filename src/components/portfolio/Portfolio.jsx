@@ -3,10 +3,30 @@ import "./portfolio.css";
 import IMG1 from "../../assets/img1.png";
 import TCF from "../../assets/tcf.jpg";
 import PFE from "../../assets/pfe.jpg";
+import towerFarms from "../../assets/tower-farms-home.webp"
+import LMS from "../../assets/LMS.png"
 
 const data = [
     {
+        id: 10,
+        image: towerFarms,
+        title: "Automated aeroponic tower system",
+        github: "https://github.com/ibrahimgb/aeroponic-tower",
+        discription:
+            "Aeroponics is the process of growing plants in the air without soil. The basic principle of aeroponic growing is to grow plants suspended in a closed or semi-closed environment by spraying the plant's dangling roots and lower stem with a nutrient-rich water solution. this project is currently a work in progress and will be open-source after it is finished the solution I am creating is a monitoring system to track the temperature and humidity and  Ultraviolet Sensor 'Sunlight intensity detection ' and the goal of it is to insure the optimal environment for maximum productivity!",
+        demo: null,
+    },
+    {
         id: 0,
+        image: LMS,
+        title: "Library management system",
+        github: null,
+        discription:
+            "the library management system is an app created with the goal of switching from paper-based administration work to all digitized systems, which will minimize human errors, and make managing the library far easier. the application is created with React and NestJS in a teamwork.",
+        demo: "https://library.americancorneroran.org/",
+    },
+    {
+        id: 1,
         image: TCF,
         title: "Tcf Quiz Exam",
         github: "https://github.com/ibrahimgb/tcf-quiz-exam",
@@ -15,7 +35,7 @@ const data = [
         demo: null,
     },
     {
-        id: 1,
+        id: 2,
         image: PFE,
         title: "Mes-papiers",
         github: "https://github.com/ibrahimgb/pfe",
@@ -24,7 +44,7 @@ const data = [
         demo: null,
     },
     {
-        id: 2,
+        id: 3,
         image: null,
         title: "Robot Navigation Using Deep Reinforcement Learning",
         github: " https://github.com/ibrahimgb/robot-navigation-using-deep-reinforcement-learning",
@@ -33,7 +53,7 @@ const data = [
         demo: null,
     },
     {
-        id: 3,
+        id: 4,
         image: null,
         title: "PARALLEL-DENSE-MATRIX-MATRIX-MULTIPLICATION",
         discription:

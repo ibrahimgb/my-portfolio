@@ -20,14 +20,17 @@
     background: transparent;
     border-color: var(---color-primary);
 }
+.disc{
+    white-space: pre;
+}
 
 .portfolio__item-img {
     border-radius: 0.4rem;
     overflow: hidden;
     width: auto;
     flex: 1.5;
+max-height: 400px;
 
-    aspect-ratio: 4/3.5;
 }
 
 .portfolio__item h3 {
