@@ -13,7 +13,7 @@ const data = [
     github: "https://progaming.monster/WRH541",
     discription:
       "platform provides users with a user-friendly and efficient way to access manuals, guides, and other types of documentation, all with the added benefit of being rewritten for chat. the service makes it easy for users to find the information they need quickly, without the need to sift through lengthy documents or manuals.",
-    demo: "https://github.com/ibrahimgb/Docschat",
+    demo: null,
   },
   {
     id: 9,
@@ -22,7 +22,7 @@ const data = [
     github: "https://progaming.monster/WRH541",
     discription:
       "SkyFarms is a groundbreaking method of food production that enables the cultivation of crops in urban areas, promoting sustainable and eco-friendly practices. The technology is designed to optimize space usage and reduce waste, allowing for efficient and productive farming in areas where traditional agriculture methods are not possible. Our website features comprehensive information about SkyFarms, including the technology's key features, benefits, and how it works. We provide real-life examples and case studies of successful SkyFarms installations in urban areas, showcasing the possibilities and benefits of this innovative agricultural approach.",
-    demo: "skyfarms.up.railway.app/",
+    demo: "https://skyfarms.up.railway.app/",
   },
   {
     id: 10,
@@ -31,7 +31,7 @@ const data = [
     github: "https://progaming.monster/WFGB1Q",
     discription:
       "SkyFarms Dashboard is an IoT solution for tracking temperature and humidity, as well as the growth of plants. With this dashboard, you can collaborate with your farmers and increase the productivity of your harvest by 30%, while reducing the size needed by 60%. The dashboard is built with Angular, TypeScript, and Angular Material.",
-    demo: "app-skyfarms.up.railway.app",
+    demo: "https://app-skyfarms.up.railway.app",
   },
   {
     id: 0,
