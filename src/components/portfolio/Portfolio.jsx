@@ -9,11 +9,11 @@ import LMS from "../../assets/LMS.png";
 const data = [
   {
     id: 11,
-    title: "Docschat",
+    title: "HousingHub",
     github: "https://progaming.monster/WRH541",
     discription:
-      "platform provides users with a user-friendly and efficient way to access manuals, guides, and other types of documentation, all with the added benefit of being rewritten for chat. the service makes it easy for users to find the information they need quickly, without the need to sift through lengthy documents or manuals.",
-    demo: "https://github.com/ibrahimgb/Docschat",
+      "HousingHub is an online platform that enables users to find their ideal apartments or homes. With 360-degree virtual tours available on the website, users can decide on their preferred living space without the need for an in-person visit. This makes the rental process more efficient and convenient for users, this is currently a project under construction for a client.",
+    demo: "",
   },
   {
     id: 9,
