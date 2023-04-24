@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.50f5334c.css",
-    "main.js": "/my-portfolio/static/js/main.e6fe402b.js",
+    "main.css": "/my-portfolio/static/css/main.73cb31ff.css",
+    "main.js": "/my-portfolio/static/js/main.e8f734a9.js",
     "static/media/img1.png": "/my-portfolio/static/media/img1.687560724b21d2bda137.png",
+    "static/media/skyfarmsLandingPage.png": "/my-portfolio/static/media/skyfarmsLandingPage.d29018fdf5039f2ffb47.png",
     "static/media/KB.pdf": "/my-portfolio/static/media/KB.c25bfd486db0beb7e1d1.pdf",
     "static/media/YL.pdf": "/my-portfolio/static/media/YL.c0c1efd08a16da6a12cb.pdf",
     "static/media/tcf.jpg": "/my-portfolio/static/media/tcf.4abb54e3eab44c2cc052.jpg",
@@ -16,11 +17,11 @@
     "static/media/LakhdarLoukil.jpeg": "/my-portfolio/static/media/LakhdarLoukil.a36f31a88617e20b4644.jpeg",
     "static/media/pfe.jpg": "/my-portfolio/static/media/pfe.e92d5580fbb93aaef755.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.50f5334c.css.map": "/my-portfolio/static/css/main.50f5334c.css.map",
-    "main.e6fe402b.js.map": "/my-portfolio/static/js/main.e6fe402b.js.map"
+    "main.73cb31ff.css.map": "/my-portfolio/static/css/main.73cb31ff.css.map",
+    "main.e8f734a9.js.map": "/my-portfolio/static/js/main.e8f734a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.50f5334c.css",
-    "static/js/main.e6fe402b.js"
+    "static/css/main.73cb31ff.css",
+    "static/js/main.e8f734a9.js"
   ]
 }
