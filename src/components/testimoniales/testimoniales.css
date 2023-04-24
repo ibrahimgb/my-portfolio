@@ -28,6 +28,12 @@
     margin: 0.8rem auto 0;
 }
 
+.client__role{
+    color: var(--color-light);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 .gap {
     margin: 0.5rem;
 }
