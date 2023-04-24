@@ -5,6 +5,7 @@ import TCF from "../../assets/tcf.jpg";
 import PFE from "../../assets/pfe.jpg";
 import towerFarms from "../../assets/tower-farms-home.webp";
 import LMS from "../../assets/LMS.png";
+import skyfarmsLandingPage from "../../assets/skyfarmsLandingPage.png";
 
 const data = [
   {
@@ -12,12 +13,12 @@ const data = [
     title: "HousingHub",
     github: "https://progaming.monster/WRH541",
     discription:
-      "HousingHub is an online platform that enables users to find their ideal apartments or homes. With 360-degree virtual tours available on the website, users can decide on their preferred living space without the need for an in-person visit. This makes the rental process more efficient and convenient for users, this is currently a project under construction for a client.",
+      "HousingHub is an online platform that enables users to find their ideal apartments or homes. With 360-degree virtual tours available on the website, users can decide on their preferred living space without the need for an in-person visit. This makes the rental process more efficient and convenient for users, \n this is currently a project under construction for a client.",
     demo: null,
   },
   {
     id: 9,
-    image: towerFarms,
+    image: skyfarmsLandingPage,
     title: "SkyFarms Landing Page",
     github: "https://progaming.monster/WRH541",
     discription:
@@ -51,15 +52,15 @@ const data = [
       "Attempt the online Tcf Mock test. Reading Writing language structure. to find out the Tcf score (tcf stands for France language knowledge test) built with react, redux toolkit and Firebase",
     demo: null,
   },
-  {
-    id: 2,
-    image: PFE,
-    title: "Mes-papiers",
-    github: "https://progaming.monster/0HBABY",
-    discription:
-      "Mes-papiers is a Mobile application for managing administrative files with localization, this is my final year project for my bachelor’s degree Apr 2020 – Jul 2020 Built using android studio, it uses SQLite to save data on the phone and googles map API for localization.",
-    demo: null,
-  },
+  // {
+  //   id: 2,
+  //   image: PFE,
+  //   title: "Mes-papiers",
+  //   github: "https://progaming.monster/0HBABY",
+  //   discription:
+  //     "Mes-papiers is a Mobile application for managing administrative files with localization, this is my final year project for my bachelor’s degree Apr 2020 – Jul 2020 Built using android studio, it uses SQLite to save data on the phone and googles map API for localization.",
+  //   demo: null,
+  // },
   {
     id: 3,
     image: null,
